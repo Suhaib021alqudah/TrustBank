@@ -25,6 +25,30 @@ An iOS Mobile Banking application built with **UIKit**, **Swift Concurrency (asy
 - **Dependency Management**: Swift Package Manager (SPM)
 - **Networking**: [GenericNetworkManager](https://github.com/Suhaib021alqudah/GenericNetworkManager) (Modular Swift Package)
 
+
+---
+## 📱 Screenshots
+
+| Home Light| Home Dark (AR) | 
+|---|---|
+|  <img src="ExpenseLens/Resources/App Screenshots/HomeLightEn.png" width="400"> | <img src="ExpenseLens/Resources/App Screenshots/HomeDarkAr.png" width="400">  | 
+
+| **Category View**| **Category Dark (AR)**| 
+|---|---|
+|  <img src="ExpenseLens/Resources/App Screenshots/CategoryViewLigh.png" width="400"> | <img src="ExpenseLens/Resources/App Screenshots/CategoryDarkAR.png" width="400">  | 
+
+| **Monthly View**| **Monthly Dark (AR)**| 
+|---|---|
+|  <img src="" width="400"> | <img src="">  | 
+
+| **Transaction Details View**| **Transaction Details Dark (AR)**| 
+|---|---|
+|  <img src="ExpenseLens/Resources/App Screenshots/TransactionDetails.png" width="400"> | <img src="ExpenseLens/Resources/App Screenshots/TransactionDetailsAR.png" width="400">  | 
+
+| **Settings View**| **Settings Dark (AR)**| 
+|---|---|
+|  <img src="ExpenseLens/Resources/App Screenshots/SettingsViewLight.png" width="400"> |  <img src="ExpenseLens/Resources/App Screenshots/SettingsDarkAR.png" width="400"> | 
+---
 ---
 
 ## 📂 Project Structure
