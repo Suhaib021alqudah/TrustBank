@@ -12,6 +12,7 @@
 		EC0D44FE2FFD8A1A00488FE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0D44E02FFD8A1A00488FE5 /* AppDelegate.swift */; };
 		EC0D44FF2FFD8A1A00488FE5 /* TrustBank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC0D44E42FFD8A1A00488FE5 /* TrustBank.xcdatamodeld */; };
 		EC0D45012FFD8A1A00488FE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0D44E62FFD8A1A00488FE5 /* SceneDelegate.swift */; };
+		ECE39597301753CE0065BB5B /* GenericNetworkManager in Frameworks */ = {isa = PBXBuildFile; productRef = ECE39596301753CE0065BB5B /* GenericNetworkManager */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE39597301753CE0065BB5B /* GenericNetworkManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +95,7 @@
 			);
 			name = TrustBank;
 			packageProductDependencies = (
+				ECE39596301753CE0065BB5B /* GenericNetworkManager */,
 			);
 			productName = LiquidBank;
 			productReference = ECADCEB22FF54D6C00DF51E7 /* TrustBank.app */;
@@ -122,6 +125,9 @@
 			);
 			mainGroup = ECADCEA92FF54D6C00DF51E7;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				ECE39595301753CE0065BB5B /* XCRemoteSwiftPackageReference "GenericNetworkManager" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = ECADCEB32FF54D6C00DF51E7 /* Products */;
 			projectDirPath = "";
@@ -372,6 +378,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ECE39595301753CE0065BB5B /* XCRemoteSwiftPackageReference "GenericNetworkManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Suhaib021alqudah/GenericNetworkManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ECE39596301753CE0065BB5B /* GenericNetworkManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECE39595301753CE0065BB5B /* XCRemoteSwiftPackageReference "GenericNetworkManager" */;
+			productName = GenericNetworkManager;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		EC0D44E42FFD8A1A00488FE5 /* TrustBank.xcdatamodeld */ = {
