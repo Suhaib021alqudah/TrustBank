@@ -1,0 +1,15 @@
+{
+  "originHash" : "1c352fd81177af90fd711ef3beafff4ab2540730b58ca6f1254ec89734e97f78",
+  "pins" : [
+    {
+      "identity" : "genericnetworkmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Suhaib021alqudah/GenericNetworkManager.git",
+      "state" : {
+        "revision" : "306712f893b2d9ba4a52cb5ae91f912a69cc939f",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

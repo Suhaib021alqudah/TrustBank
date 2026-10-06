@@ -31,6 +31,11 @@
 			path = TrustBank;
 			sourceTree = "<group>";
 		};
+		ECE2CC3B3075451200D456D3 /* AppScreenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AppScreenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +53,7 @@
 		EC0D45022FFD97D400488FE5 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				ECE2CC3B3075451200D456D3 /* AppScreenshots */,
 				EC03B4183003A59600338FE1 /* Info.plist */,
 				EC0D44E12FFD8A1A00488FE5 /* Assets.xcassets */,
 				EC0D44E32FFD8A1A00488FE5 /* LaunchScreen.storyboard */,
@@ -92,6 +98,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				ECADCEB42FF54D6C00DF51E7 /* TrustBank */,
+				ECE2CC3B3075451200D456D3 /* AppScreenshots */,
 			);
 			name = TrustBank;
 			packageProductDependencies = (
