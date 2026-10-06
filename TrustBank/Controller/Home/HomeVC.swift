@@ -5,7 +5,6 @@
 //  Created by Trainee on 03/07/2026.
 //
 import UIKit
-import GenericNetworkManager
 class HomeVC: UIViewController {
 
     let scrollView = UIScrollView()

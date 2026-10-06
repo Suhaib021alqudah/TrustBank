@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import GenericNetworkManager
 final class TransactionService {
 
     private let networkManager: NetworkManagerProtocol
