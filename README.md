@@ -26,7 +26,6 @@ An iOS Mobile Banking application built with **UIKit**, **Swift Concurrency (asy
 - **Networking**: [GenericNetworkManager](https://github.com/Suhaib021alqudah/GenericNetworkManager) (Modular Swift Package)
 
 
----
 ## 📱 Screenshots
 
 | Home Screen|  Transaction Deatils | 
@@ -37,7 +36,6 @@ An iOS Mobile Banking application built with **UIKit**, **Swift Concurrency (asy
 |---|---|
 |  <img src="App/AppScreenshots/login.png" width="400"> | <img src="App/AppScreenshots/siginup.png" width="400">  | 
 
----
 ---
 
 ## 📂 Project Structure
