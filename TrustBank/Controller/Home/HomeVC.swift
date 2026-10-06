@@ -4,9 +4,8 @@
 //
 //  Created by Trainee on 03/07/2026.
 //
-
 import UIKit
-
+import GenericNetworkManager
 class HomeVC: UIViewController {
 
     let scrollView = UIScrollView()
@@ -72,11 +71,11 @@ class HomeVC: UIViewController {
     let transactionsTableView = UITableView()
 
     var transactions: [Transaction] = []
-//
-//    let transactionBody = CreateTransactionRequest(
-//        amount: 100,
-//        receiver: "Ahmed"
-//    )
+    //
+    //    let transactionBody = CreateTransactionRequest(
+    //        amount: 100,
+    //        receiver: "Ahmed"
+    //    )
     let transactionService = TransactionService()
 
     override func viewDidLoad() {
@@ -463,61 +462,6 @@ class HomeVC: UIViewController {
         row.addArrangedSubview(cardType)
     }
 
-    func createTransaction() {
-        Task {
-            do {
-                guard
-                    let url = URL(
-                        string: "https://api.example.com/transactions"
-                    )
-                else {
-                    throw NetworkError.invalidURL
-                }
-
-//                let transactionBody = CreateTransactionRequest(
-//                    amount: 100,
-//                    receiver: "Ahmed"
-//                )
-
-                var request = URLRequest(url: url)
-
-                request.httpMethod = "POST"
-
-                request.setValue(
-                    "application/json",
-                    forHTTPHeaderField: "Content-Type"
-                )
-
-                request.setValue(
-                    "application/json",
-                    forHTTPHeaderField: "Accept"
-                )
-
-                //                request.setValue(
-                //                    "Bearer \(token)",
-                //                    forHTTPHeaderField: "Authorization"
-                //                )
-
-//                request.httpBody = try JSONEncoder().encode(
-//                    transactionBody
-//                )
-
-                let createdTransaction =
-                    try await NetworkManager.shared.request(
-                        request: request,
-                        responseType: Transaction.self
-                    )
-
-                print(createdTransaction)
-
-            } catch {
-                print(
-                    "Failed to create transaction:",
-                    error.localizedDescription
-                )
-            }
-        }
-    }
     func configVStack() {
         vStack.translatesAutoresizingMaskIntoConstraints = false
 
@@ -641,7 +585,6 @@ class HomeVC: UIViewController {
     }
 
     func loadTransactions() {
-        let decoder = JSONDecoder()
 
         Task {
             do {

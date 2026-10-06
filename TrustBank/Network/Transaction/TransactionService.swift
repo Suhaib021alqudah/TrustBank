@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import GenericNetworkManager
 final class TransactionService {
 
     private let networkManager: NetworkManagerProtocol
@@ -17,7 +17,7 @@ final class TransactionService {
     }
 
     func fetchTransactions() async throws -> [Transaction] {
-        let endpoint = TransactionEndpoint.getAll.endpoint
+        let endpoint = try TransactionEndpoint.getAll.endpoint
 
         return try await networkManager.request(
             request: endpoint.request,
